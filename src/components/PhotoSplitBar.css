@@ -1,0 +1,75 @@
+.pictureSplitIntro {
+  display: flex;
+  flex-direction: row;
+  height: 50vh;
+}
+
+.pictureSplit {
+  flex: 2 1 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.pictureSplitImage {
+  flex: 1 1 0;
+  border-radius: 50%;
+  height: 70%;
+  width: 45%;
+  border: 5px solid white;
+  background-position: center;
+  background-size: cover;
+}
+
+.pictureSplitInfo {
+  padding: 3vh 3vw;
+  opacity: 0.9;
+  color: white;
+  flex: 3 1 0;
+  overflow-wrap: break-word;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.pictureSplitInfoTitle {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 45px;
+  line-height: 0px !important;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.pictureSplitInfoText {
+  text-indent: 30px;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 20px;
+}
+
+@keyframes slideFromLeft {
+  0% {
+    position: relative;
+    left: -20vw;
+    opacity: 0;
+  }
+  100% {
+    position: relative;
+    left: 0vw;
+    opacity: 0.9;
+  }
+}
+
+@keyframes slideFromRight {
+  0% {
+    position: relative;
+    left: 20vw;
+    opacity: 0;
+  }
+  100% {
+    position: relative;
+    left: 0vw;
+    opacity: 0.9;
+  }
+}

@@ -1,0 +1,21 @@
+.aboutMePage {
+  background-image: url("../../images/aboutme_background.jpg");
+  background-position: center;
+  background-size: cover;
+  padding: 20px 0px;
+}
+
+/*redacted
+.PageBarAboutMe { 
+  position: relative;
+  line-height: 4vh;
+  text-align: center;
+  width: 100%;
+  background-color: transparent;
+  color: white;
+  display: table;
+  flex-direction: column;
+  text-align: center;
+}
+*/
+
