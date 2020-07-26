@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import "./PhotoSplitBar.css";
 
-export default class LeftPhotoSplitBar extends Component {
+export default class PhotoSplitBar extends Component {
   constructor(props) {
     super(props);
   }

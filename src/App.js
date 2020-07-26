@@ -13,7 +13,8 @@ import { BrowserRouter as Router, Route, Switch, Link } from "react-router-dom";
 export default class App extends Component {
   render() {
     return (
-      <main style={{ display: "flex", flexDirection: "column-reverse" }}>
+      <main className="main">
+        <meta content="width=device-width, initial-scale=1" name="viewport" />
         <BottomBar />
         <Switch>
           <Route path="/" component={Home} exact />

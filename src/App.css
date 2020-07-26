@@ -1,0 +1,7 @@
+.main {
+  min-width: 600px;
+  width: auto !important;
+  width: 600px;
+  display: flex;
+  flex-direction: column-reverse;
+}

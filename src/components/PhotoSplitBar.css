@@ -1,7 +1,7 @@
 .pictureSplitIntro {
   display: flex;
   flex-direction: row;
-  height: 50vh;
+  min-height: 40vh;
 }
 
 .pictureSplit {
@@ -71,5 +71,21 @@
     position: relative;
     left: 0vw;
     opacity: 0.9;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .pictureSplitInfoText {
+    font-size: 16px;
+  }
+
+  .pictureSplitInfoTitle {
+    font-size: 25px;
+  }
+
+  .pictureSplitIntro {
+    display: flex;
+    flex-direction: row;
+    min-height: 60vh;
   }
 }
